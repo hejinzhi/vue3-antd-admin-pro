@@ -6,14 +6,14 @@ module.exports = {
     'selector-pseudo-class-no-unknown': [
       true,
       {
-        ignorePseudoClasses: ['global'],
-      },
+        ignorePseudoClasses: ['global']
+      }
     ],
     'at-rule-no-unknown': [
       true,
       {
-        ignoreAtRules: ['function', 'if', 'each', 'include', 'mixin'],
-      },
+        ignoreAtRules: ['function', 'if', 'each', 'include', 'mixin']
+      }
     ],
     'no-empty-source': null,
     'named-grid-areas-no-invalid': null,
@@ -26,8 +26,8 @@ module.exports = {
     'rule-empty-line-before': [
       'always',
       {
-        ignore: ['after-comment', 'first-nested'],
-      },
+        ignore: ['after-comment', 'first-nested']
+      }
     ],
     'unit-no-unknown': [true, { ignoreUnits: ['rpx'] }],
     // Specify the alphabetical order of the attributes in the declaration block
@@ -177,8 +177,8 @@ module.exports = {
       'page',
       'set-link-source',
       'unicode-bidi',
-      'speak',
-    ],
+      'speak'
+    ]
   },
-  ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
-};
+  ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts']
+}
